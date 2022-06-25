@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-25T06:08:09.193Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="eM823Lcnc5bBnNAaN269" version="19.0.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-25T06:34:29.509Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="jTHKZX3aWC4CWmPUFlLn" version="19.0.0" type="github" pages="3">
   <diagram id="GyDPhunH_FVkdkP3zkRw" name="ルール提案システム">
     <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,100 +71,126 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="I7pQWsgpf0SX6WXXmAYH" name="ルール違反通知システム">
+  <diagram id="I7pQWsgpf0SX6WXXmAYH" name="ルール通知システム">
     <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="it_0HY1LqK03ZyzFCqXI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" source="ks9Wf23r5W1-5St7ZFqC-1" target="ks9Wf23r5W1-5St7ZFqC-2" edge="1">
+        <mxCell id="4kQ_azIvT6K3Oszr9wH6-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="90" width="350" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="yFMLHKMhRiO-TCmCAtP5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="4kQ_azIvT6K3Oszr9wH6-4" target="yFMLHKMhRiO-TCmCAtP5-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ks9Wf23r5W1-5St7ZFqC-1" value="ルール従う人" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="140" y="211" width="30" height="58" as="geometry" />
+        <mxCell id="4kQ_azIvT6K3Oszr9wH6-4" value="メンバー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="170" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="it_0HY1LqK03ZyzFCqXI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" source="ks9Wf23r5W1-5St7ZFqC-2" target="ks9Wf23r5W1-5St7ZFqC-3" edge="1">
+        <mxCell id="4kQ_azIvT6K3Oszr9wH6-13" value="ルールに違反・奨励している件を通知する。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4kQ_azIvT6K3Oszr9wH6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="4kQ_azIvT6K3Oszr9wH6-4" target="4kQ_azIvT6K3Oszr9wH6-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ks9Wf23r5W1-5St7ZFqC-2" value="ルールカード" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="294" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="r-bLLrmalTpKYi79fkwZ-1" value="違反や、奨励に関してコメントする。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="it_0HY1LqK03ZyzFCqXI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="1" source="ks9Wf23r5W1-5St7ZFqC-3" target="it_0HY1LqK03ZyzFCqXI-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="s5eACRXPAOJjPTtvMQ9v-1" value="コメントは無くした方がいいかもしれない。奨励のみコメントを残すなどは検討" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;size=18;" vertex="1" parent="1">
+          <mxGeometry x="570" y="80" width="245" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ks9Wf23r5W1-5St7ZFqC-3" value="ルール管理システム" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="294" y="400" width="120" height="60" as="geometry" />
+        <mxCell id="yFMLHKMhRiO-TCmCAtP5-1" value="ルール廃止を提案する。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="it_0HY1LqK03ZyzFCqXI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="it_0HY1LqK03ZyzFCqXI-5" target="it_0HY1LqK03ZyzFCqXI-6" edge="1">
+        <mxCell id="yFMLHKMhRiO-TCmCAtP5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" target="yFMLHKMhRiO-TCmCAtP5-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="514" y="627.25" as="targetPoint" />
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="345" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="it_0HY1LqK03ZyzFCqXI-5" value="通知サービス" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="294" y="597.25" width="120" height="60" as="geometry" />
+        <mxCell id="yFMLHKMhRiO-TCmCAtP5-5" value="全メンバーが賛成でルールを廃止する。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="it_0HY1LqK03ZyzFCqXI-6" value="・通知方法未定&lt;br&gt;メール送信&lt;br&gt;Line通知&lt;br&gt;アプリのプッシュ通知など" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="519" y="585" width="166" height="84.5" as="geometry" />
+        <mxCell id="yFMLHKMhRiO-TCmCAtP5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="r-bLLrmalTpKYi79fkwZ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="200" as="sourcePoint" />
+            <mxPoint x="500" y="160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EyoMVUDnOtNEqubV75pg-1" value="&lt;span style=&quot;&quot;&gt;1, ルール違反をしていることを発見した際には、ルールから違反通知ボタンを押す&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="87.5" y="90" width="135" height="110" as="geometry" />
+        <mxCell id="yFMLHKMhRiO-TCmCAtP5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yFMLHKMhRiO-TCmCAtP5-1" target="yFMLHKMhRiO-TCmCAtP5-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="210" as="sourcePoint" />
+            <mxPoint x="510" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFMLHKMhRiO-TCmCAtP5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" target="yFMLHKMhRiO-TCmCAtP5-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="345" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFMLHKMhRiO-TCmCAtP5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="yFMLHKMhRiO-TCmCAtP5-9" target="yFMLHKMhRiO-TCmCAtP5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yFMLHKMhRiO-TCmCAtP5-9" value="ルール廃止に賛成する。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yFMLHKMhRiO-TCmCAtP5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="yFMLHKMhRiO-TCmCAtP5-10" target="yFMLHKMhRiO-TCmCAtP5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yFMLHKMhRiO-TCmCAtP5-10" value="ルール廃止に反対する" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="7tyftblFB10bc_5N7Jpf" name="ルールグループシステム">
-    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="C_jb1d2Ftn3pIQHOZ-gV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="Vk6GoB9kucpprr7zzlM9-1" target="Vk6GoB9kucpprr7zzlM9-2" edge="1">
+        <mxCell id="GBBLdUdh31j0iQhYC3XH-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="350" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="GBBLdUdh31j0iQhYC3XH-3" value="グループ管理者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GBBLdUdh31j0iQhYC3XH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="GBBLdUdh31j0iQhYC3XH-4" target="GBBLdUdh31j0iQhYC3XH-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vk6GoB9kucpprr7zzlM9-1" value="オーナー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="170" y="250" width="30" height="60" as="geometry" />
+        <mxCell id="GBBLdUdh31j0iQhYC3XH-4" value="グループを作成する" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="x0AJMryJi84ocof8pyh8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" source="Vk6GoB9kucpprr7zzlM9-2" target="Vk6GoB9kucpprr7zzlM9-3" edge="1">
+        <mxCell id="GBBLdUdh31j0iQhYC3XH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="GBBLdUdh31j0iQhYC3XH-3" target="GBBLdUdh31j0iQhYC3XH-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vk6GoB9kucpprr7zzlM9-2" value="グループ作成画面" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="GBBLdUdh31j0iQhYC3XH-7" value="招待制にはしない" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;size=18;" vertex="1" parent="1">
+          <mxGeometry x="570" y="150" width="245" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="x0AJMryJi84ocof8pyh8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="Vk6GoB9kucpprr7zzlM9-3" target="x0AJMryJi84ocof8pyh8-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GBBLdUdh31j0iQhYC3XH-8" value="グループに参加する。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C_jb1d2Ftn3pIQHOZ-gV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="Vk6GoB9kucpprr7zzlM9-3" target="C_jb1d2Ftn3pIQHOZ-gV-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GBBLdUdh31j0iQhYC3XH-18" value="グループ管理者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vk6GoB9kucpprr7zzlM9-3" value="ルール管理システム" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="420" width="120" height="60" as="geometry" />
+        <mxCell id="GBBLdUdh31j0iQhYC3XH-19" value="メンバー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="480" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="x0AJMryJi84ocof8pyh8-1" value="オーナー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="640" y="420" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="C_jb1d2Ftn3pIQHOZ-gV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="C_jb1d2Ftn3pIQHOZ-gV-2" target="C_jb1d2Ftn3pIQHOZ-gV-3" edge="1">
+        <mxCell id="GBBLdUdh31j0iQhYC3XH-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GBBLdUdh31j0iQhYC3XH-19" target="GBBLdUdh31j0iQhYC3XH-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="702.25" as="targetPoint" />
+            <mxPoint x="90" y="420" as="sourcePoint" />
+            <mxPoint x="325" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C_jb1d2Ftn3pIQHOZ-gV-2" value="通知サービス" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="672.25" width="120" height="60" as="geometry" />
+        <mxCell id="GBBLdUdh31j0iQhYC3XH-21" value="グループのパスワードが作成される" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C_jb1d2Ftn3pIQHOZ-gV-3" value="・通知方法未定&lt;br&gt;メール送信&lt;br&gt;Line通知&lt;br&gt;アプリのプッシュ通知など" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="585" y="660" width="166" height="84.5" as="geometry" />
+        <mxCell id="GBBLdUdh31j0iQhYC3XH-23" value="グループ名とパスワードで参加する。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;size=18;" vertex="1" parent="1">
+          <mxGeometry x="190" y="425" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C_jb1d2Ftn3pIQHOZ-gV-6" value="ルールグループ&lt;br&gt;・メンバーの招待&lt;br&gt;・メンバーの加入&lt;br&gt;・etc" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="50" y="407.75" width="166" height="84.5" as="geometry" />
+        <mxCell id="GBBLdUdh31j0iQhYC3XH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="GBBLdUdh31j0iQhYC3XH-24" target="GBBLdUdh31j0iQhYC3XH-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RrwVDGSeX6vjSqMhuk2K-1" value="1. グループを作成する。&lt;br&gt;場合によってはメンバーを招待する。" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="102" y="150" width="166" height="84.5" as="geometry" />
-        </mxCell>
-        <mxCell id="RrwVDGSeX6vjSqMhuk2K-2" value="2. グループを検索して参加、もしくは、招待から参加する。" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="572" y="310" width="166" height="84.5" as="geometry" />
-        </mxCell>
-        <mxCell id="RrwVDGSeX6vjSqMhuk2K-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="C_jb1d2Ftn3pIQHOZ-gV-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="354" y="449.5" as="targetPoint" />
-            <mxPoint x="243" y="449.5" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="GBBLdUdh31j0iQhYC3XH-24" value="グループ名を入力する。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="220" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
