@@ -1,1 +1,279 @@
-<mxfile host="app.diagrams.net" modified="2022-06-25T06:56:19.374Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="20.0.3" etag="lyFOo-Ula415xjIkc_Ip" type="github"><diagram id="H1uxGlW3iGUyW5Hqwg1S">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-26T08:09:55.630Z" agent="5.0 (Macintosh)" etag="aDTitOIIg_ATBdV-og_o" version="20.0.3" type="github">
+  <diagram id="H1uxGlW3iGUyW5Hqwg1S" name="ルールグループシステム">
+    <mxGraphModel dx="1426" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.143;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-1" target="taYDyw4AJL5Jt9h-xHY9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-1" value="トップページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="112.5" width="90" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-2" target="taYDyw4AJL5Jt9h-xHY9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-8" value="&lt;div&gt;[グループ作成]ボタン&lt;/div&gt;&lt;div&gt;をクリック&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="taYDyw4AJL5Jt9h-xHY9-7">
+          <mxGeometry x="0.0615" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-2" value="グループ管理者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-4" value="グループ情報記入ページ（モーダル）" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="90" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-5" value="グループ作成ページを表示する。" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="100" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.867;entryY=0.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-5" target="taYDyw4AJL5Jt9h-xHY9-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-13" value="&lt;div&gt;パスワード表示ページ（モーダル）&lt;/div&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="460" width="90" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-14" target="taYDyw4AJL5Jt9h-xHY9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-77" value="はい" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="taYDyw4AJL5Jt9h-xHY9-19">
+          <mxGeometry x="0.0769" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-14" value="グループの名前の長さは適切か？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="250" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.229;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-4" target="taYDyw4AJL5Jt9h-xHY9-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="454.18351150272656" y="168.96399292139904" as="sourcePoint" />
+            <mxPoint x="328.03" y="246.9749999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-16" target="taYDyw4AJL5Jt9h-xHY9-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-16" value="パスワードを作成する。" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="305" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-17" target="taYDyw4AJL5Jt9h-xHY9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-17" value="グループを作成する。" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="305" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-18" value="グループ" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="305" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-22" value="表示する。" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="410" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.9;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="taYDyw4AJL5Jt9h-xHY9-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="636.1535115027266" y="380.003992921399" as="sourcePoint" />
+            <mxPoint x="550" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.944;entryY=0.227;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.029;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-22" target="taYDyw4AJL5Jt9h-xHY9-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460.15351150272636" y="450.003992921399" as="sourcePoint" />
+            <mxPoint x="367" y="504" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-26" value="ユーザー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="79" y="690" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-27" value="グループ検索ページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="700" width="90" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-29" value="グループを表示する。" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="378" y="640" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-31" value="グループ一覧ページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="884.51" width="90" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-32" value="グループにユーザーを追加する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="1014.51" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-33" target="taYDyw4AJL5Jt9h-xHY9-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-33" value="パスワードが正しいかを確認する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="499" y="879.51" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-34" value="グループ" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="669" y="879.51" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.886;entryY=0.288;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-33" target="taYDyw4AJL5Jt9h-xHY9-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="569.0035115027264" y="974.513992921399" as="sourcePoint" />
+            <mxPoint x="475.85" y="1028.51" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-48" value="はい" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="taYDyw4AJL5Jt9h-xHY9-36">
+          <mxGeometry x="-0.0716" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-37" value="表示する。" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="579" y="1014.51" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-38" value="グループページ参加ボタン" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="1019.51" width="90" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.011;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.014;exitY=0.575;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-32" target="taYDyw4AJL5Jt9h-xHY9-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="364.96000000000004" y="1064.51" as="sourcePoint" />
+            <mxPoint x="309" y="1147.5100000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.011;exitY=0.507;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-27" target="taYDyw4AJL5Jt9h-xHY9-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="522.2329279958444" y="886.3233475181751" as="sourcePoint" />
+            <mxPoint x="461.02" y="973.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.922;entryY=0.173;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-65" target="taYDyw4AJL5Jt9h-xHY9-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="339.99" y="748.0250000000001" as="sourcePoint" />
+            <mxPoint x="409" y="751.98" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-66" value="はい" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="taYDyw4AJL5Jt9h-xHY9-41">
+          <mxGeometry x="-0.0907" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.033;entryY=0.52;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" target="taYDyw4AJL5Jt9h-xHY9-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="109" y="730" as="sourcePoint" />
+            <mxPoint x="229.01" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-46" value="&lt;div&gt;パスワードを入力し、&lt;/div&gt;&lt;div&gt;参加ボタンをクリックする&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="taYDyw4AJL5Jt9h-xHY9-42">
+          <mxGeometry x="-0.2613" y="-3" relative="1" as="geometry">
+            <mxPoint x="15" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.022;entryY=0.573;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" target="taYDyw4AJL5Jt9h-xHY9-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="109" y="730" as="sourcePoint" />
+            <mxPoint x="246.02999999999997" y="859" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-45" value="&lt;div&gt;グループ名を&lt;/div&gt;&lt;div&gt;入力する&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="taYDyw4AJL5Jt9h-xHY9-44">
+          <mxGeometry x="0.2218" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.043;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.011;exitY=0.413;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-31" target="taYDyw4AJL5Jt9h-xHY9-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414.843242961485" y="844.1378959667304" as="sourcePoint" />
+            <mxPoint x="331.98" y="907.4849999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.957;exitY=0.838;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-33" target="taYDyw4AJL5Jt9h-xHY9-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="522.2329279958444" y="960.8333475181751" as="sourcePoint" />
+            <mxPoint x="461.02" y="1047.55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-50" value="いいえ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="taYDyw4AJL5Jt9h-xHY9-49">
+          <mxGeometry x="-0.0716" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="459" y="1163.4950000000001" as="sourcePoint" />
+            <mxPoint x="626.879374011332" y="1125.3465570623264" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-53" value="拒否メッセージ" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="579" y="1124.51" width="90" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-54" value="グループ名からデータを取得する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="469" y="585" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-56" value="グループ" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="649" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" target="taYDyw4AJL5Jt9h-xHY9-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="538.9840793148185" y="626.20634756258" as="sourcePoint" />
+            <mxPoint x="676.03" y="797" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-60" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.9;entryY=0.281;entryDx=0;entryDy=0;endArrow=none;endFill=0;entryPerimeter=0;" edge="1" parent="1" target="taYDyw4AJL5Jt9h-xHY9-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="472.8699042273938" y="643.2827546601018" as="sourcePoint" />
+            <mxPoint x="649" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-61" value="Member" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="1134.51" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-62" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-61" target="taYDyw4AJL5Jt9h-xHY9-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524.8099638038359" y="764.0805151727093" as="sourcePoint" />
+            <mxPoint x="472" y="804.49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-65" value="グループが見つかったか？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="579" y="750" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-68" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.386;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="taYDyw4AJL5Jt9h-xHY9-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="526.7776980709602" y="655.3702640946135" as="sourcePoint" />
+            <mxPoint x="388" y="694.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-72" value="検索結果なしを表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="378" y="720" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-73" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.575;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-65" target="taYDyw4AJL5Jt9h-xHY9-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="545.7785784575142" y="651.7623270984691" as="sourcePoint" />
+            <mxPoint x="696.02" y="731.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-74" value="いいえ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="taYDyw4AJL5Jt9h-xHY9-73">
+          <mxGeometry x="-0.0901" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-75" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.989;entryY=0.56;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-72" target="taYDyw4AJL5Jt9h-xHY9-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="339.99" y="748.0250000000001" as="sourcePoint" />
+            <mxPoint x="388" y="694.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-76" value="名前の長さが不適切であることを表示する。" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="350" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-78" value="いいえ" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-14" target="taYDyw4AJL5Jt9h-xHY9-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="276.96012956890354" as="sourcePoint" />
+            <mxPoint x="420.03" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-79" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.611;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="taYDyw4AJL5Jt9h-xHY9-76" target="taYDyw4AJL5Jt9h-xHY9-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="276.96012956890354" as="sourcePoint" />
+            <mxPoint x="420.03" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-80" value="グループ作成ケース" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;size=18;" vertex="1" parent="1">
+          <mxGeometry x="30" y="52.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="taYDyw4AJL5Jt9h-xHY9-81" value="グループ参加ケース" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;size=18;" vertex="1" parent="1">
+          <mxGeometry x="30" y="570" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
