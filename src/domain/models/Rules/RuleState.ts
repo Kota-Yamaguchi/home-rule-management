@@ -1,0 +1,1 @@
+export type RuleState = "PROPOSED" | "APPROVED" | "DENIED" | "ABOLITIONED" 
