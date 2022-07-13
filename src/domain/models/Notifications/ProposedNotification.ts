@@ -1,4 +1,4 @@
-import { IMemberNotification } from "../Members/MemberNotification";
+import { IMemberNotification } from "./MemberNotification";
 
 
 
@@ -6,6 +6,10 @@ import { IMemberNotification } from "../Members/MemberNotification";
 export class ProposedNotification implements IMemberNotification{
     contents: string;
     notify() {
+        public notify(ruleId : string, notification: IMemberNotification) : void {
+            this.notification = notification
+            this.notification.notify()
+        }
         this.contents = "" 
         throw new Error("Method not implemented.");
     }

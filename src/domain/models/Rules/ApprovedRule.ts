@@ -35,7 +35,9 @@ export class ApprovedRule {
         this.approvedTimestamp = approvedTimestamp
     }
    
-    public 
+    public findIllegal(){
+        
+    }
 
     public showRuleContents(): ShowContentsType{
         return {
