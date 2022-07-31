@@ -1,5 +1,5 @@
 
-import { generateUUID } from "src/utils/genUuid";
+import { generateUUID } from "src/shared/genUuid";
 import { ApprovedRule } from "./ApprovedRule";
 import { DeniedRule } from "./DenidRule";
 import { Level } from "./Level";

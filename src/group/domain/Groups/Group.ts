@@ -24,7 +24,9 @@ export class Group {
         return group
     }
    
-
+    public getGroupId(): String{
+        return this.groupId
+    }
     public confirmPasswordAndGroupName(password: string, groupName: string): boolean {
 
         if (this.groupName !== groupName

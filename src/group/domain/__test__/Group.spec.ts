@@ -1,4 +1,4 @@
-import { Group} from "src/domain/models/Groups/Group";
+import { Group} from "src/group/domain/Groups/Group";
 var crypto = require("crypto");
 var uuid = require('node-uuid');
 describe("Group test ", ()=>{

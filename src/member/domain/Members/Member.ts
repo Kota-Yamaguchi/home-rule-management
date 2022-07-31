@@ -7,7 +7,7 @@ export class Member{
     private name : String
     private email : Email
 
-    constructor(memberId: String, name : String, email : Email){
+    private constructor(memberId: String, name : String, email : Email){
         this.memberId = memberId
         this.name = name
         this.setEmail(email)
@@ -15,6 +15,9 @@ export class Member{
 
     public setEmail(email : Email) :void {
         this.email = email
+    }
+    public getId() : String{
+        return this.memberId;
     }
 
     static createMember(sid : String, name: String, email : Email) : Member{

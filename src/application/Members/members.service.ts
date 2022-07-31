@@ -1,6 +1,6 @@
-import { Email } from "src/domain/models/Members/Email";
-import { Member } from "src/domain/models/Members/Member";
-import { MemberRepository } from "src/domain/models/Members/MemberRepository";
+import { Email } from "src/member/domain/Members/Email";
+import { Member } from "src/member/domain/Members/Member";
+import { MemberRepository } from "src/member/domain/Members/MemberRepository";
 import { Authenticator } from "src/domain/shared/auth/Authenticator";
 
 
